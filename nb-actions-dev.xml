@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE actions SYSTEM "action-mapping.dtd">
 <actions>
+    <action name="build" repeatable="true"/>
+    <action name="custom-1" repeatable="true"/>
     <action name="run" repeatable="true">
-        <args>-Dspring.profiles.active=dev</args>
+        <args>bootRun</args>
     </action>
 </actions>
